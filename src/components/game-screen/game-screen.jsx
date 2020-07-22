@@ -24,7 +24,6 @@ const GameScreen = (props) => {
           <circle className="timer__line" cx="390" cy="390" r="370"
             style={{filter: `url(#blur)`, transform: `rotate(-90deg) scaleY(-1)`, transformOrigin: `center`}}/>
         </svg>
-
         <Mistakes
           count={mistakes}
         />
@@ -52,3 +51,4 @@ const mapStateToProps = (state) => ({
 
 export {GameScreen};
 export default connect(mapStateToProps)(GameScreen);
+
