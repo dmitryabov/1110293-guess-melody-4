@@ -8,6 +8,7 @@ import {AuthorizationStatus} from "../../reducer/user/user.js";
 
 const mockStore = configureStore([]);
 
+
 const questions = [
   {
     type: `genre`,
